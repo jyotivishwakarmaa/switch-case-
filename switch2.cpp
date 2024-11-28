@@ -7,12 +7,12 @@ int main(){
     cout<<"Enter time : ";
     cin>>time;
 
-    switch(time){
+    switch(time/12){
 
-        case 1 ... 11 : cout<<"AM";
+        case 0 : cout<<"AM";
         break;
 
-        case 12 ... 23 : cout<<"PM";
+        case 1 : cout<<"PM";
         break;
 
         default : cout<<"ii";

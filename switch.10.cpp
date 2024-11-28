@@ -23,7 +23,7 @@ int main(){
 
         switch(choice)
         {
-            case 'A' : cout<<"Mocha ";
+            case 'A' : cout<<"Mocha";
             case 'B' : cout<<"Cold Coffee";
         }
         break;
